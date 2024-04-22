@@ -1,14 +1,6 @@
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "ConsentStringSDKSwift"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.0"
   spec.summary      = "Encode and decode web-safe base64 consent information with the IAB EU's GDPR Transparency and Consent Framework."
 
   spec.description  = <<-DESC
@@ -22,9 +14,9 @@ DESC
 
   spec.homepage     = "https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "Alexander Edge" => "ios@theguardian.com" }
-  spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/guardian/Consent-String-SDK-Swift.git", :tag => "#{spec.version}" }
+  spec.author       = { "Smaato" => "amit.angarkar@smaato.com" }
+  spec.platform     = :ios, "12.0"
+  spec.source       = { :git => "https://github.com/vervegroup/smaato-iabtcf-ios.git", :tag => '1.0.0' }
   spec.source_files  = "Consent String SDK Swift"
   spec.swift_version = '5.0'
 
